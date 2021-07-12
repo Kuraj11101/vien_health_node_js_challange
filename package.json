@@ -1,0 +1,51 @@
+{
+  "name": "noode.js-coding-challenge",
+  "version": "0.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "node app.js",
+    "build": "ng build",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "@angular/cli": "^12.1.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.11.2",
+    "express-bearer-token": "^2.1.0",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.2",
+    "hash": "^0.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mean-cli": "^0.12.15",
+    "mongodb": "^2.2.24",
+    "mongoose": "^5.13.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "url-parse": "^1.4.7",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.1.0"
+  },
+  "description": "### You would need: * Node.js * MongoDB",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Samly Courage Panton",
+  "license": "ISC"
+}
